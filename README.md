@@ -18,6 +18,14 @@ Go to the project directory
   cd my-project
 ```
 
+Create .env file in the project directory with the following
+
+```bash
+  # .env
+    DISCORD_TOKEN=TOKENHERE
+    DISCORD_GUILD=SERVERID HERE
+```
+
 Install dependencies
 
 ```bash
