@@ -29,20 +29,11 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    brooklyn_99_quotes = [
-        'I\'m the human form of the 💯 emoji.',
-        'Bingpot!',
-        (
-            'Cool. Cool cool cool cool cool cool cool, '
-            'no doubt no doubt no doubt no doubt.'
-        ),
-    ]
-
-    if message.content == '99!':
+    if message.content == '!ping':
         print(
-        f'{client.user} has received a message:\n'
+        f'{client.user} has received a !ping from the server:\n'
     )
-        response = random.choice(brooklyn_99_quotes)
+        response = "replying to your message with something"
         await message.channel.send(response)
 
 client.run(TOKEN)
