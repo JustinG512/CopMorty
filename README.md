@@ -1,5 +1,5 @@
 
-# Cop Morty
+# C3PO
 
 Sample discord bot in Python with a few events.
 
